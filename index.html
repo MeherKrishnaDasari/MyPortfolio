@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meher's Portfolio</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            background-color: white;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background: linear-gradient(to right, #0077b6, #00aaff);
+            text-align: center;
+            padding: 20px;
+            color: white;
+            font-size: 28px;
+        }
+        div.container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        fieldset {
+            border: 2px solid #0077b6;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        legend {
+            font-size: 22px;
+            color: #0077b6;
+        }
+        section {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meher Krishna Dasari</h1>
+    <p>Python Developer | SQL Developer</p>
+</header>
+
+<div class="container">
+    <div class="text">
+        <p>Hi, I’m Meher—an inquisitive Python Developer passionate about automation, data processing, and problem-solving.</p>
+    </div>
+    <img src="images/meher-photo.jpg" alt="Profile Picture">
+</div>
+
+<section id="resume">
+    <fieldset>
+        <legend>Resume</legend>
+        <a href="MeherResume.docx" download>Download My Resume</a>
+    </fieldset>
+</section>
+
+<section id="contact">
+    <fieldset>
+        <legend>Contact</legend>
+        <form action="mailto:meher75698@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </fieldset>
+</section>
+
+<section id="social-media">
+    <h4>Find me Online</h4>
+    <a href="https://www.linkedin.com/in/meher-krishna-dasari/" target="_blank">LinkedIn</a><br>
+    <a href="https://github.com/MeherKrishnaDasari" target="_blank">GitHub</a>
+</section>
+
+<section id="email">
+    <h4>Email</h4>
+    <p>Email me at: <a href="mailto:meher75698@gmail.com">meher75698@gmail.com</a></p>
+</section>
+
+<section id="contact-details">
+    <h4>Contact Me</h4>
+    <p>Meher Krishna Dasari</p>
+    <p>Phone number: <a href="tel:+917569827301">+917569827301</a></p>
+</section>
+
+</body>
+</html>
